@@ -1,0 +1,25 @@
+schema_version = "1.0.0"
+
+id = "CGDToolsGameDevExporter"
+version = "1.0.0"
+name = "CGD Tools : Game dev exporter"
+tagline = "This is an exporter intended for game development purposes"
+maintainer = "Jamie Cooper"
+type = "add-on"
+
+
+tags = ["3D View", "Import-Export"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+
+# Optional: bundle 3rd party Python modules.
+# https://docs.blender.org/manual/en/dev/extensions/python_wheels.html
+# wheels = [
+#   "./wheels/hexdump-3.3-py3-none-any.whl",
+#   "./wheels/jsmin-3.0.1-py3-none-any.whl"
+# ]
